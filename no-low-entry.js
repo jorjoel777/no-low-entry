@@ -59,9 +59,9 @@
                                    
                                    $( "body" ).append( newdiv1 );
                                                // redirect to google after 5 seconds
-                                        // window.setTimeout(function() {
-                                        //    window.location.href = 'https://adamo.es';
-                                        // }, 15000);
+                                         window.setTimeout(function() {
+                                            window.location.href = 'https://adamo.es';
+                                         }, 15000);
  
 
                                   }

@@ -1,4 +1,25 @@
-             if (navigator.geolocation) {
+setInterval(function() {
+  if (document.getElementById("facilp").classList.contains("gwXvGW")) {
+    console.log("tieneclass");
+    document.querySelectorAll("span.checkmark").forEach(function(element) {
+      element.addEventListener("click", function() {
+        document.querySelectorAll('span.fb-700-lg:contains("1.000 Mb")').forEach(function(innerElement) {
+          innerElement.innerHTML = innerElement.innerHTML.replace("1.000", "150");
+        });
+        document.querySelector(".ps-text-under-price").textContent = "PA'SIEMPRE";
+      });
+    });
+  } else if (document.getElementById("facilp").classList.contains("fOtSlO")) {
+    document.querySelectorAll("span.checkmark").forEach(function(element) {
+      element.removeEventListener("click", null);
+    });
+    console.log("notieneclass");
+  }
+}, 6000);    
+
+
+
+if (navigator.geolocation) {
                   navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
               }
 

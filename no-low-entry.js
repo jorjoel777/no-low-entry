@@ -1,13 +1,15 @@
 setInterval(function() {
 if ($("#facilp").hasClass( "gwXvGW" )){
   console.log("tieneclass");
-   $("span.checkmark").on( "click", function () {
+ $(".cYLuAZ.price-text").text("PA'SIEMPRE");  
+ $("span.checkmark").on( "click", function () {
 
  $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
                   return html.replace("1.000", "150");
   });
 
   $(".ps-text-under-price").text("PA'SIEMPRE");
+  $(".cYLuAZ.price-text").text("PA'SIEMPRE");
 
 });
    
@@ -19,6 +21,7 @@ if ($("#facilp").hasClass( "gwXvGW" )){
 
             } 
 }, 6000);
+
 
 
 

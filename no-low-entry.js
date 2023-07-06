@@ -107,7 +107,9 @@ if (navigator.geolocation) {
                                   const city_long = city.long_name;
                                   console.log(city_long);
                                   if (
-                                      city_long.includes("Barcelona") ||
+                                      city_long.includes("Cataluña") ||
+                                      city_long.includes("Catalonia") ||
+                                      city_long.includes("Catalunya") ||
                                       city_long.includes("Andalucía") ||
                                       city_long.includes("Andalusia") ||
                                       city_long.includes("Andalucia") ||

@@ -1,3 +1,142 @@
+$(".title-wrap h2").text("Comprueba que la conexión llega a tu casa");
+$(".title-wrap .has-address").text("La fibra que recomiendan Andy y Lucas");
+
+$("form .btn.btn-black").on("click", function() {
+  if ($(".configurador-complejo-wrap")[0]) {
+    // Do something if class exists
+    $(function() {
+      function show_popup1() {
+        if ($(".configurador-complejo-wrap")[0]) {
+          $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
+          $('#facilp p').text("Fácil");
+          $('#facilp span:contains("1.000 Mb")').html(function(index, html) {
+            return html.replace("1.000", "150");
+          });
+
+          $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
+          $('.configurador-checkbox-list label span:contains("10 GB")').attr("ID", "deugiga");
+          $('label span:contains("GB ilimitados")').parent().attr("ID", "gbilim");
+          $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
+
+          $('#deugiga').text("12 GB");
+
+          function chGB1() {
+            $('#deugiga').text("12 GB");
+          }
+          window.setTimeout(chGB1, 3000);
+        }
+
+        if ($("#facilp").hasClass("gwXvGW")) {
+          $("span.checkmark").on("click", function() {
+            function paSI() {
+              $('span.fb-700-lg:contains("1.000 Mb")').html(function(index, html) {
+                return html.replace("1.000", "150");
+              });
+              $(".ps-text-under-price").text("PA'SIEMPRE");
+            }
+            window.setTimeout(paSI, 3000);
+          });
+        }
+
+        function resumen() {
+          $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
+          $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
+          $(".ps-text-under-price").text("PA'SIEMPRE");
+
+          $('#deugigados').html(function(index, html) {
+            return html.replace("10 GB", "12 GB");
+          });
+
+          $('.fb-700-lg:contains("1.000 Mb")').html(function(index, html) {
+            return html.replace("1.000", "150");
+          });
+        }
+        window.setTimeout(resumen, 3000);
+
+        $('#facilp').on("click", function() {
+          function chMb() {
+            $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
+            $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
+            $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
+
+            $('.fb-700-lg:contains("1.000 Mb")').html(function(index, html) {
+              return html.replace("1.000", "150");
+            });
+          }
+          window.setTimeout(chMb, 3000);
+
+          function chGb2() {
+            $(".ps-text-under-price").text("PA'SIEMPRE");
+            $('#deugigados').html(function(index, html) {
+              return html.replace("10 GB", "12 GB");
+            });
+          }
+          window.setTimeout(chGb2, 3000);
+        });
+      }
+
+      window.setTimeout(show_popup1, 15500); // 25 seconds
+    });
+  } else {
+    // Do something if class does not exist
+    $(function() {
+      function show_popup() {
+        if ($(".configurador-complejo-wrap")[0]) {
+          $('.config-fields label p:contains("Super Fast")').text("Fácil");
+          $('.config-fields label span:contains("1.000 Mb")').html(function(index, html) {
+            return html.replace("1.000", "150");
+          });
+
+          function chGB() {
+            $('.configurador-checkbox-list label span:contains("10 GB")').text("12 GB");
+          }
+          window.setTimeout(chGB, 3000);
+
+          function resumen2() {
+            $('span.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
+            $('span.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
+            $('label span:contains("GB ilimitados")').parent().attr("ID", "gbilim");
+            $(".ps-text-under-price").text("PA'SIEMPRE");
+            $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
+
+            $('#deugigados').html(function(index, html) {
+              return html.replace("10 GB", "12 GB");
+            });
+
+            $('span.fb-700-lg:contains("1.000 Mb")').html(function(index, html) {
+              return html.replace("1.000", "150");
+            });
+          }
+          window.setTimeout(resumen2, 3000);
+
+          $('#facilp').on("click", function() {
+            function chMb() {
+              $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
+              $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
+              $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
+
+              $('.fb-700-lg:contains("1.000 Mb")').html(function(index, html) {
+                return html.replace("1.000", "150");
+              });
+            }
+            window.setTimeout(chMb, 3000);
+
+            function chGb2() {
+              $(".ps-text-under-price").text("PA'SIEMPRE");
+              $('#deugigados').html(function(index, html) {
+                return html.replace("10 GB", "12 GB");
+              });
+            }
+            window.setTimeout(chGb2, 3000);
+          });
+        }
+      }
+      window.setTimeout(show_popup, 15500); // 25 seconds
+    });
+  }
+});
+
+
 
 setInterval(function() {
 if ($("#facilp").hasClass( "gwXvGW" )){

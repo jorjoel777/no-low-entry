@@ -33,6 +33,8 @@ $("form .btn.btn-black").on("click", function() {
                 return html.replace("1.000", "150");
               });
               $(".ps-text-under-price").text("PA'SIEMPRE");
+              $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+              
             }
             window.setTimeout(paSI, 3500);
           });
@@ -42,6 +44,7 @@ $("form .btn.btn-black").on("click", function() {
           $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
           $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
           $(".ps-text-under-price").text("PA'SIEMPRE");
+          $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
 
           $('#deugigados').html(function(index, html) {
             return html.replace("10 GB", "12 GB");
@@ -67,6 +70,7 @@ $("form .btn.btn-black").on("click", function() {
 
           function chGb2() {
             $(".ps-text-under-price").text("PA'SIEMPRE");
+            $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
             $('#deugigados').html(function(index, html) {
               return html.replace("10 GB", "12 GB");
             });
@@ -97,6 +101,7 @@ $("form .btn.btn-black").on("click", function() {
             $('span.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
             $('label span:contains("GB ilimitados")').parent().attr("ID", "gbilim");
             $(".ps-text-under-price").text("PA'SIEMPRE");
+            $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
             $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
 
             $('#deugigados').html(function(index, html) {
@@ -141,7 +146,8 @@ $("form .btn.btn-black").on("click", function() {
 setInterval(function() {
 if ($("#facilp").hasClass( "gwXvGW" )){
   console.log("tieneclass");
- $(".cYLuAZ.price-text").text("PA'SIEMPRE");  
+ $(".cYLuAZ.price-text").text("PA'SIEMPRE"); 
+ $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
  $("span.checkmark").on( "click", function () {
 
  $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
@@ -150,7 +156,7 @@ if ($("#facilp").hasClass( "gwXvGW" )){
 
   $(".ps-text-under-price").text("PA'SIEMPRE");
   $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-
+  $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
 });
    
 } else if ($("#facilp").hasClass( "fOtSlO")) {

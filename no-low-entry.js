@@ -23,7 +23,7 @@ $("form .btn.btn-black").on("click", function() {
           function chGB1() {
             $('#deugiga').text("12 GB");
           }
-          window.setTimeout(chGB1, 3000);
+          window.setTimeout(chGB1, 3500);
         }
 
         if ($("#facilp").hasClass("gwXvGW")) {
@@ -34,7 +34,7 @@ $("form .btn.btn-black").on("click", function() {
               });
               $(".ps-text-under-price").text("PA'SIEMPRE");
             }
-            window.setTimeout(paSI, 3000);
+            window.setTimeout(paSI, 3500);
           });
         }
 
@@ -51,7 +51,7 @@ $("form .btn.btn-black").on("click", function() {
             return html.replace("1.000", "150");
           });
         }
-        window.setTimeout(resumen, 3000);
+        window.setTimeout(resumen, 3500);
 
         $('#facilp').on("click", function() {
           function chMb() {
@@ -63,7 +63,7 @@ $("form .btn.btn-black").on("click", function() {
               return html.replace("1.000", "150");
             });
           }
-          window.setTimeout(chMb, 3000);
+          window.setTimeout(chMb, 3500);
 
           function chGb2() {
             $(".ps-text-under-price").text("PA'SIEMPRE");
@@ -71,7 +71,7 @@ $("form .btn.btn-black").on("click", function() {
               return html.replace("10 GB", "12 GB");
             });
           }
-          window.setTimeout(chGb2, 3000);
+          window.setTimeout(chGb2, 3500);
         });
       }
 
@@ -90,7 +90,7 @@ $("form .btn.btn-black").on("click", function() {
           function chGB() {
             $('.configurador-checkbox-list label span:contains("10 GB")').text("12 GB");
           }
-          window.setTimeout(chGB, 3000);
+          window.setTimeout(chGB, 3500);
 
           function resumen2() {
             $('span.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
@@ -107,7 +107,7 @@ $("form .btn.btn-black").on("click", function() {
               return html.replace("1.000", "150");
             });
           }
-          window.setTimeout(resumen2, 3000);
+          window.setTimeout(resumen2, 3500);
 
           $('#facilp').on("click", function() {
             function chMb() {
@@ -119,7 +119,7 @@ $("form .btn.btn-black").on("click", function() {
                 return html.replace("1.000", "150");
               });
             }
-            window.setTimeout(chMb, 3000);
+            window.setTimeout(chMb, 3500);
 
             function chGb2() {
               $(".ps-text-under-price").text("PA'SIEMPRE");
@@ -127,7 +127,7 @@ $("form .btn.btn-black").on("click", function() {
                 return html.replace("10 GB", "12 GB");
               });
             }
-            window.setTimeout(chGb2, 3000);
+            window.setTimeout(chGb2, 3500);
           });
         }
       }

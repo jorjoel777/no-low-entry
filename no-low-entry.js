@@ -59,8 +59,14 @@ if ($("#facilp").hasClass( "gwXvGW" )){
   });
 
   $(".ps-text-under-price").text("PA'SIEMPRE");
+
+// Wait for 5 seconds
+setTimeout(function() {
   $(".cYLuAZ.price-text").text("PA'SIEMPRE");
   $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+}, 3000); 
+
+   
 });
    
 } else if ($("#facilp").hasClass( "fOtSlO")) {
@@ -70,7 +76,7 @@ if ($("#facilp").hasClass( "gwXvGW" )){
  
 
             } 
-}, 18000);
+}, 20000);
 
 
 //ends mobile

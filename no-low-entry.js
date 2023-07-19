@@ -4,6 +4,9 @@ $(".title-wrap .has-address").text("La fibra que recomiendan Andy y Lucas");
 $("form .btn.btn-black").on("click", function() {
   if ($(".configurador-complejo-wrap")[0]) {
     // Do something if class exists
+
+
+    
     $(function() {
       function show_popup1() {
         if ($(".configurador-complejo-wrap")[0]) {
@@ -40,6 +43,38 @@ $("form .btn.btn-black").on("click", function() {
           });
         }
 
+
+
+//starts mobile
+
+setInterval(function() {
+if ($("#facilp").hasClass( "gwXvGW" )){
+  console.log("tieneclass");
+ $(".cYLuAZ.price-text").text("PA'SIEMPRE"); 
+ $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+ $("span.checkmark").on( "click", function () {
+
+ $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
+                  return html.replace("1.000", "150");
+  });
+
+  $(".ps-text-under-price").text("PA'SIEMPRE");
+  $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+  $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+});
+   
+} else if ($("#facilp").hasClass( "fOtSlO")) {
+
+ $("span.checkmark").off("click", );
+  console.log("notieneclass");
+ 
+
+            } 
+}, 18000);
+
+
+//ends mobile
+        
         function resumen() {
           $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
           $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
@@ -140,34 +175,6 @@ $("form .btn.btn-black").on("click", function() {
     });
   }
 });
-
-
-
-setInterval(function() {
-if ($("#facilp").hasClass( "gwXvGW" )){
-  console.log("tieneclass");
- $(".cYLuAZ.price-text").text("PA'SIEMPRE"); 
- $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
- $("span.checkmark").on( "click", function () {
-
- $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
-                  return html.replace("1.000", "150");
-  });
-
-  $(".ps-text-under-price").text("PA'SIEMPRE");
-  $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-  $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-});
-   
-} else if ($("#facilp").hasClass( "fOtSlO")) {
-
- $("span.checkmark").off("click", );
-  console.log("notieneclass");
- 
-
-            } 
-}, 9000);
-
 
 
 

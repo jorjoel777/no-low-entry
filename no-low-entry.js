@@ -166,7 +166,7 @@ if ($("#facilp").hasClass( "gwXvGW" )){
  
 
             } 
-}, 6000);
+}, 8000);
 
 
 

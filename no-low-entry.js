@@ -22,7 +22,14 @@ $("form .btn.btn-black").on("click", function () {
         $('#deugiga').text("12 GB");
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-            $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
         }
         window.setTimeout(chGB1, 3500);
       }
@@ -34,7 +41,14 @@ $("form .btn.btn-black").on("click", function () {
               return html.replace("1.000", "150");
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-            $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
             });
 
           }
@@ -46,15 +60,30 @@ $("form .btn.btn-black").on("click", function () {
       setInterval(function () {
         if ($("#facilp").hasClass("gwXvGW")) {
           console.log("tieneclass");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
           $(".cYLuAZ.price-text").text("PA'SIEMPRE");
           $(".ps-text-under-price").text("PA'SIEMPRE");
-          $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+
           $("span.checkmark").on("click", function () {
             $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
               return html.replace("1.000", "150");
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-            $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
             });
 
             $(".ps-text-under-price").text("PA'SIEMPRE");
@@ -63,7 +92,14 @@ $("form .btn.btn-black").on("click", function () {
             setTimeout(function () {
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-            $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+            $("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
             }, 3000);
           });
         } else if ($("#facilp").hasClass("fOtSlO")) {
@@ -78,7 +114,14 @@ $("form .btn.btn-black").on("click", function () {
         $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
         $(".cYLuAZ.price-text").text("PA'SIEMPRE");
         $(".ps-text-under-price").text("PA'SIEMPRE");
-        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
 
         $('#deugigados').html(function (index, html) {
           return html.replace("10 GB", "12 GB");
@@ -97,7 +140,14 @@ $("form .btn.btn-black").on("click", function () {
           $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
         $(".cYLuAZ.price-text").text("PA'SIEMPRE");
         $(".ps-text-under-price").text("PA'SIEMPRE");
-        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
           $('.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
             return html.replace("1.000", "150");
           });
@@ -111,7 +161,14 @@ $("form .btn.btn-black").on("click", function () {
             return html.replace("10 GB", "12 GB");
         $(".cYLuAZ.price-text").text("PA'SIEMPRE");
         $(".ps-text-under-price").text("PA'SIEMPRE");
-        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+$("div.pbm-toggle.toggle-bar").on("click", function () {
+  console.log("clic");
+    setInterval(function () {
+    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+  }, 1000);
+
+});
+
           });
         }
         window.setTimeout(chGb2, 3500);

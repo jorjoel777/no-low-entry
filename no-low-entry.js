@@ -2,6 +2,13 @@ $(".title-wrap h2").text("Comprueba que la conexión llega a tu casa");
 $(".title-wrap .has-address").text("La fibra que recomiendan Andy y Lucas");
 
 $("form .btn.btn-black").on("click", function () {
+
+   setInterval(function () {
+     $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+   }, 20000);
+
+
+  
   $(function () {
     function show_popup1() {
 

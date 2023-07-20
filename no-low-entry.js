@@ -29,14 +29,13 @@ $("form .btn.btn-black").on("click", function () {
         $('#deugiga').text("12 GB");
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
+            $("div.pbm-toggle.toggle-bar").on("click", function () {
+            console.log("clic");
+           setInterval(function () {
+           $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+           }, 1000);
 
-});
-
+           });
         }
         window.setTimeout(chGB1, 3500);
       }

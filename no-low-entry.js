@@ -19,9 +19,9 @@ $("form .btn.btn-black").on("click", function () {
         $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
 
         $('#deugiga').text("12 GB");
-
-
-          $('#deugiga').text("12 GB");
+        $('#deugiga').text("12 GB");
+        $(".ps-text-under-price").text("PA'SIEMPRE");
+        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
         }
         window.setTimeout(chGB1, 3500);
       }
@@ -44,10 +44,13 @@ $("form .btn.btn-black").on("click", function () {
         if ($("#facilp").hasClass("gwXvGW")) {
           console.log("tieneclass");
           $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+          $(".ps-text-under-price").text("PA'SIEMPRE");
           $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
           $("span.checkmark").on("click", function () {
             $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
               return html.replace("1.000", "150");
+              $(".ps-text-under-price").text("PA'SIEMPRE");
+              $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
             });
 
             $(".ps-text-under-price").text("PA'SIEMPRE");
@@ -55,7 +58,8 @@ $("form .btn.btn-black").on("click", function () {
             // Wait for 5 seconds
             setTimeout(function () {
               $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-              $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
+             $(".ps-text-under-price").text("PA'SIEMPRE");
+             $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
             }, 3000);
           });
         } else if ($("#facilp").hasClass("fOtSlO")) {
@@ -86,7 +90,8 @@ $("form .btn.btn-black").on("click", function () {
           $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
           $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
           $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
-
+        $(".ps-text-under-price").text("PA'SIEMPRE");
+        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
           $('.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
             return html.replace("1.000", "150");
           });
@@ -95,6 +100,7 @@ $("form .btn.btn-black").on("click", function () {
 
         function chGb2() {
           $(".ps-text-under-price").text("PA'SIEMPRE");
+        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
           $('#deugigados').html(function (index, html) {
             return html.replace("10 GB", "12 GB");
           });

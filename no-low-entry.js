@@ -69,8 +69,6 @@ $("div.pbm-toggle.toggle-bar").on("click", function () {
         $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
           return html.replace("1.000", "150");
         });
-
-        $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
          
         if ($("#facilp").hasClass("gwXvGW")) {
           console.log("tieneclass");
@@ -92,9 +90,7 @@ $("div.pbm-toggle.toggle-bar").on("click", function () {
         $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
           return html.replace("1.000", "150");
         });
-
-        $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
-             
+           
             $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
               return html.replace("1.000", "150");
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");

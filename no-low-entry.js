@@ -113,6 +113,9 @@ $("div.pbm-toggle.toggle-bar").on("click", function () {
 
             // Wait for 5 seconds
             setTimeout(function () {
+
+
+               
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
             $("div.pbm-toggle.toggle-bar").on("click", function () {

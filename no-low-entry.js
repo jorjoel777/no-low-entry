@@ -1,43 +1,41 @@
-$(".title-wrap h2").text("Comprueba que la conexión llega a tu casa");
-$(".title-wrap .has-address").text("La fibra que recomiendan Andy y Lucas");
+$(document).ready(function () {
+  $(".title-wrap h2").text("Comprueba que la conexión llega a tu casa");
+  $(".title-wrap .has-address").text("La fibra que recomiendan Andy y Lucas");
 
-$("form .btn.btn-black").on("click", function () {
+  $("form .btn.btn-black").on("click", function () {
+    setTimeout(function () {
+      $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+      $(".ps-text-under-price").text("PA'SIEMPRE");
+      updateTrFlexSmRowText("PA'SIEMPRE");
+    }, 20000);
 
-   setInterval(function () {
-     $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-   }, 20000);
+    function updateTrFlexSmRowText(text) {
+      $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text(text);
+    }
 
+    function updateConfigFieldsText() {
+      $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
+      $('#facilp p').text("Fácil");
+      $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
+        return html.replace("1.000", "150");
+      });
 
-  
-  $(function () {
+      $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
+      $('.configurador-checkbox-list label span:contains("10 GB")').attr("ID", "deugiga");
+      $('label span:contains("GB ilimitados")').parent().attr("ID", "gbilim");
+      $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
+
+      $('#deugiga').text("12 GB");
+      $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+      $(".ps-text-under-price").text("PA'SIEMPRE");
+      updateTrFlexSmRowText("PA'SIEMPRE");
+    }
+
     function show_popup1() {
-
-        function chGB1() {
+      function chGB1() {
         if ($(".configurador-complejo-wrap")[0]) {
-        $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
-        $('#facilp p').text("Fácil");
-        $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
-          return html.replace("1.000", "150");
-        });
-
-        $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
-        $('.configurador-checkbox-list label span:contains("10 GB")').attr("ID", "deugiga");
-        $('label span:contains("GB ilimitados")').parent().attr("ID", "gbilim");
-        $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
-
-        $('#deugiga').text("12 GB");
-        $('#deugiga').text("12 GB");
-            $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-            $(".ps-text-under-price").text("PA'SIEMPRE");
-            $("div.pbm-toggle.toggle-bar").on("click", function () {
-            console.log("clic");
-           setInterval(function () {
-           $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-           }, 1000);
-
-           });
+          updateConfigFieldsText();
         }
-        window.setTimeout(chGB1, 3500);
       }
 
       if ($("#facilp").hasClass("gwXvGW")) {
@@ -45,83 +43,41 @@ $("form .btn.btn-black").on("click", function () {
           function paSI() {
             $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
               return html.replace("1.000", "150");
+            });
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
-            });
-
+            updateTrFlexSmRowText("PA'SIEMPRE");
           }
-          window.setTimeout(paSI, 3500);
+          setTimeout(paSI, 3500);
         });
       }
 
       // Starts mobile
       setInterval(function () {
-        $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
         $('#facilp p').text("Fácil");
         $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
           return html.replace("1.000", "150");
         });
-         
+
+        $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
+
         if ($("#facilp").hasClass("gwXvGW")) {
           console.log("tieneclass");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
-          $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-          $(".ps-text-under-price").text("PA'SIEMPRE");
+          updateConfigFieldsText();
 
           $("span.checkmark").on("click", function () {
-
-        $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
-        $('#facilp p').text("Fácil");
-        $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
-          return html.replace("1.000", "150");
-        });
-           
             $('span.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
               return html.replace("1.000", "150");
+            });
             $(".cYLuAZ.price-text").text("PA'SIEMPRE");
             $(".ps-text-under-price").text("PA'SIEMPRE");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
-            });
-
-            $(".ps-text-under-price").text("PA'SIEMPRE");
+            updateTrFlexSmRowText("PA'SIEMPRE");
 
             // Wait for 5 seconds
             setTimeout(function () {
-
-
-               
-            $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-            $(".ps-text-under-price").text("PA'SIEMPRE");
-            $("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
+              $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+              $(".ps-text-under-price").text("PA'SIEMPRE");
+              updateTrFlexSmRowText("PA'SIEMPRE");
             }, 3000);
           });
         } else if ($("#facilp").hasClass("fOtSlO")) {
@@ -134,72 +90,36 @@ $("div.pbm-toggle.toggle-bar").on("click", function () {
       function resumen() {
         $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
         $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
-        $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-        $(".ps-text-under-price").text("PA'SIEMPRE");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
-
+        updateConfigFieldsText();
         $('#deugigados').html(function (index, html) {
           return html.replace("10 GB", "12 GB");
         });
-
-        $('.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
-          return html.replace("1.000", "150");
-        });
       }
-      window.setTimeout(resumen, 3500);
+      setTimeout(resumen, 3500);
 
       $('#facilp').on("click", function () {
         function chMb() {
           $('.fb-700-lg:contains("1.000 Mb")').attr("ID", "milmega");
           $('.fb-700-lg:contains("10 GB")').attr("ID", "deugigados");
           $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
-        $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-        $(".ps-text-under-price").text("PA'SIEMPRE");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
-          $('.fb-700-lg:contains("1.000 Mb")').html(function (index, html) {
-            return html.replace("1.000", "150");
-          });
+          $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+          $(".ps-text-under-price").text("PA'SIEMPRE");
+          updateTrFlexSmRowText("PA'SIEMPRE");
         }
-        window.setTimeout(chMb, 3500);
+        setTimeout(chMb, 3500);
 
         function chGb2() {
           $(".ps-text-under-price").text("PA'SIEMPRE");
-        $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-          $('#deugigados').html(function (index, html) {
-            return html.replace("10 GB", "12 GB");
-        $(".cYLuAZ.price-text").text("PA'SIEMPRE");
-        $(".ps-text-under-price").text("PA'SIEMPRE");
-$("div.pbm-toggle.toggle-bar").on("click", function () {
-  console.log("clic");
-    setInterval(function () {
-    $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text("PA'SIEMPRE");
-  }, 1000);
-
-});
-
-          });
+          updateTrFlexSmRowText("PA'SIEMPRE");
         }
-        window.setTimeout(chGb2, 3500);
+        setTimeout(chGb2, 3500);
       });
     }
 
-    window.setTimeout(show_popup1, 15500); // 25 seconds
+    setTimeout(show_popup1, 15500); // 25 seconds
   });
 });
+
 
 
 

@@ -2,6 +2,35 @@ $(document).ready(function () {
   $(".title-wrap h2").text("Comprueba que la conexión llega a tu casa");
   $(".title-wrap .has-address").text("La fibra que recomiendan Andy y Lucas");
 
+
+if ($(".configurador-complejo-wrap")[0]) {
+    updateConfigFieldsTextvisitado();
+
+    function uupdateConfigFieldsTextvisitado() {
+      $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
+      $('#facilp p').text("Fácil");
+      $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
+        return html.replace("1.000", "150");
+      });
+
+      $('.config-fields label p:contains("Fast")').parent().attr("ID", "fastp");
+      $('.configurador-checkbox-list label span:contains("10 GB")').attr("ID", "deugiga");
+      $('label span:contains("GB ilimitados")').parent().attr("ID", "gbilim");
+      $("#gbilim").attr("class", "sc-gsTCUz sc-eCssSg dwxxdk hmocIu");
+
+      $('#deugiga').text("12 GB");
+      $(".cYLuAZ.price-text").text("PA'SIEMPRE");
+      $(".ps-text-under-price").text("PA'SIEMPRE");
+      updateTrFlexSmRowTextVisitado("PA'SIEMPRE");
+      function updateTrFlexSmRowTextVisitado(text) {
+      $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text(text);
+    }
+    }
+
+
+  
+}
+
   $("form .btn.btn-black").on("click", function () {
     setTimeout(function () {
       $(".cYLuAZ.price-text").text("PA'SIEMPRE");

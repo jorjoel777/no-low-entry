@@ -6,7 +6,7 @@ $(document).ready(function () {
 if ($(".configurador-complejo-wrap")[0]) {
     updateConfigFieldsTextvisitado();
 
-    function uupdateConfigFieldsTextvisitado() {
+    function updateConfigFieldsTextvisitado() {
       $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
       $('#facilp p').text("Fácil");
       $('#facilp span:contains("1.000 Mb")').html(function (index, html) {

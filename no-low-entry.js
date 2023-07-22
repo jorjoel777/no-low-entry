@@ -77,7 +77,7 @@ if ($(".configurador-complejo-wrap")[0]) {
             $(".ps-text-under-price").text("PA'SIEMPRE");
             updateTrFlexSmRowText("PA'SIEMPRE");
           }
-          setTimeout(paSI, 3500);
+          setTimeout(paSI, 2500);
         });
       }
 
@@ -107,7 +107,7 @@ if ($(".configurador-complejo-wrap")[0]) {
               $(".cYLuAZ.price-text").text("PA'SIEMPRE");
               $(".ps-text-under-price").text("PA'SIEMPRE");
               updateTrFlexSmRowText("PA'SIEMPRE");
-            }, 3000);
+            }, 2500);
           });
         } else if ($("#facilp").hasClass("fOtSlO")) {
           $("span.checkmark").off("click");
@@ -124,7 +124,7 @@ if ($(".configurador-complejo-wrap")[0]) {
           return html.replace("10 GB", "12 GB");
         });
       }
-      setTimeout(resumen, 3500);
+      setTimeout(resumen, 2500);
 
       $('#facilp').on("click", function () {
         function chMb() {
@@ -135,13 +135,13 @@ if ($(".configurador-complejo-wrap")[0]) {
           $(".ps-text-under-price").text("PA'SIEMPRE");
           updateTrFlexSmRowText("PA'SIEMPRE");
         }
-        setTimeout(chMb, 3500);
+        setTimeout(chMb, 2500);
 
         function chGb2() {
           $(".ps-text-under-price").text("PA'SIEMPRE");
           updateTrFlexSmRowText("PA'SIEMPRE");
         }
-        setTimeout(chGb2, 3500);
+        setTimeout(chGb2, 2500);
       });
     }
 

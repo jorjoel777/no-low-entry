@@ -4,9 +4,7 @@ $(document).ready(function () {
 
 
 if ($(".configurador-complejo-wrap")[0]) {
-    updateConfigFieldsTextvisitado();
 
-    function updateConfigFieldsTextvisitado() {
       $('.config-fields label p:contains("Super Fast")').parent().attr("ID", "facilp");
       $('#facilp p').text("Fácil");
       $('#facilp span:contains("1.000 Mb")').html(function (index, html) {
@@ -25,10 +23,6 @@ if ($(".configurador-complejo-wrap")[0]) {
       function updateTrFlexSmRowTextVisitado(text) {
       $("tr.flex-sm-row.movil.d-tablet-fix > td > div.center > div").text(text);
     }
-    }
-
-
-  
 }
 
   $("form .btn.btn-black").on("click", function () {
